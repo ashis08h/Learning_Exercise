@@ -5,13 +5,30 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Integration Services Project5", "Integration Services Project5\Integration Services Project5.dtproj", "{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "learning database", "learning database\learning database.sqlproj", "{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Development|Default = Development|Default
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Development|Default.ActiveCfg = Development
-		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Development|Default.Build.0 = Development
+		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Debug|Any CPU.ActiveCfg = Development
+		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Debug|Any CPU.Build.0 = Development
+		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Development|Any CPU.ActiveCfg = Development
+		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Development|Any CPU.Build.0 = Development
+		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Release|Any CPU.ActiveCfg = Development
+		{CEB6CF5C-BA75-4792-905E-1AC67A4EA5A5}.Release|Any CPU.Build.0 = Development
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F9F8B8-9AA1-45FF-A2B7-6055FB86F14B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
